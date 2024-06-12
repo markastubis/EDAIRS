@@ -1,0 +1,27 @@
+Results and interpretaion (EDAIRS):
+
+Summary statistics seem okay and there is not much room from interpretation, but From this boxplot a few of insights are clear. Firstly, the average income has the broadest range, indicating high variability, with several outliers including one household with an income of 5,000,000. Most household incomes are between 0 and 1,000,000. Salary income is more tightly distributed, primarily ranging from 0 to 500,000, showing less variability than total income. Average dividends are more concentrated, with a smaller sample size since we only included households with dividends greater than zero, and the amounts are significantly lower than for income and salary. Real estate taxes also have a smaller sample size, filtered to include only households with taxes greater than zero, and show even tighter clustering, suggesting low variability among those households.
+
+About richest ZIP codes:
+
+I am a little surprise because Florida have the highest income, dividends and retax when I expected that to be California as it is one of the biggest and most financially rich states in the US.
+
+
+Scatterplot:
+
+The scatterplot illustrates a positive but weak correlation between hh income and a fraction of hh receiving dividends. The majority of data points are clustered at the lower end of the income scale with a small fraction receiving dividends. As income rises, the proportion of hh receiving dividends also goes up, but it is crucial to note that the increase in dividend recipients is gradual and not consistend across all income levels.
+
+Regression model:
+
+The regression model is not a very good fit. While the fraction of HH receiving divis has statistically significant relationship with hh income but R^2 is just 0.35 so the model fails to explain even half of the income variance. 
+
+Comparison with 2019:
+
+Compared to 2020 data we can see that in 2019 almost all descriptive analysis things(mean,max,min) are lower, which is logical due to economic growth in the country so people get more money as well. Now the boxplot though does not seem to change a lot because it is still centered for people earning up to a million and with every variable the concetration gets higher and with less money. Also we can see the same outliers in the boxplot meaning that the richest hh were already rich in 2019 which also makes sense.  The scatterplot of income vs fraction of receiving dividends also seems to remain pretty much the same except that in 2019 there were more people with low income receiving higher proportion of dividends.
+
+The regression model also seems to be at a similar trend but it exibits a stronger relationship between the fraction of hh receiving dividends and income, because R^2 is 0.44 which is 0.09 higher than in 2020. But prediction errors are still significant for both years which suggest that there are a lot of other variables influencing household income, which is also completely true.
+
+
+
+
+
